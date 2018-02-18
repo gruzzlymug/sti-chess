@@ -26,7 +26,6 @@ ActiveRecord::Schema.define(version: 20150907162621) do
   end
 
   create_table "pieces", force: :cascade do |t|
-    t.string   "name"
     t.integer  "game_id"
     t.integer  "user_id"
     t.integer  "x_pos"
